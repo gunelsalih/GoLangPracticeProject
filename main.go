@@ -3,9 +3,11 @@ package main // bu hangi pakete dahil olduğunu belirtemek için (javada da böy
 
 // import "gplesson/variables"
 // import "gplesson/conditionals"
+
 import (
-	"gplesson/arrays"
+	//"gplesson/arrays"
 	//"gplesson/loops"
+	"gplesson/slices"
 )
 
 
@@ -17,6 +19,7 @@ func main() {
     //loops.Workshop()
 	//arrays.Array()
 	//arrays.Workshop()
-	arrays.Matrixarray()
+	//arrays.Matrixarray()
+	slices.Slice2()
 
 }
