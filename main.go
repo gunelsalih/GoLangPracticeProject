@@ -4,16 +4,14 @@ package main // bu hangi pakete dahil olduğunu belirtemek için (javada da böy
 // import "gplesson/variables"
 // import "gplesson/conditionals"
 
-import (
-	//"gplesson/arrays"
-	//"gplesson/loops"
-	//"gplesson/slices"
-	//"fmt"
-	//"fmt"
-	"fmt"
-	"gplesson/functions"
-)
-
+//"gplesson/arrays"
+//"gplesson/loops"
+//"gplesson/slices"
+//"fmt"
+//"fmt"
+//"fmt"
+//"gplesson/functions"
+import "gplesson/for_range"
 func main() {
 
 	// variables.Variable()
@@ -32,10 +30,12 @@ func main() {
 	//fmt.Println("Cıkarma", sonuc2)
 	//fmt.Println("Carpma", sonuc3)
 	//fmt.Println("Bolme", sonuc4)
-	fmt.Println(functions.ToplaVariadic(1, 4, 6, 3, 10))
-	fmt.Println(functions.ToplaVariadic(1, 4))
-	fmt.Println(functions.ToplaVariadic())
+	//fmt.Println(functions.ToplaVariadic(1, 4, 6, 3, 10))
+	//fmt.Println(functions.ToplaVariadic(1, 4))
+	//fmt.Println(functions.ToplaVariadic())
 
-	sayilar := []int{4, 6, 7, 0, 11}
-	fmt.Println(functions.ToplaVariadic(sayilar...))
+	//sayilar := []int{4, 6, 7, 0, 11}
+	//fmt.Println(functions.ToplaVariadic(sayilar...))
+	for_range.Demo3()
+
 }
