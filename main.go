@@ -11,7 +11,13 @@ package main // bu hangi pakete dahil olduğunu belirtemek için (javada da böy
 //"fmt"
 //"fmt"
 //"gplesson/functions"
-import "gplesson/for_range"
+
+//"fmt"
+//"gplesson/pointers"
+import "gplesson/structs"
+
+
+
 func main() {
 
 	// variables.Variable()
@@ -36,6 +42,17 @@ func main() {
 
 	//sayilar := []int{4, 6, 7, 0, 11}
 	//fmt.Println(functions.ToplaVariadic(sayilar...))
-	for_range.Demo3()
+	//for_range.Demo3()
 
+	//sayi :=20
+	//pointers.Pointer(&sayi)
+	//fmt.Println("maindeki sayı:",sayi)
+	//sayilar := []int{1, 2, 3}
+	//pointers.Pointer2(sayilar)
+	//fmt.Println("Maindeki sayi",sayilar[0])
+
+	structs.Demo2()
+
+
+	
 }
