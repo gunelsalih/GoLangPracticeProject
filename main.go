@@ -14,9 +14,12 @@ package main // bu hangi pakete dahil olduğunu belirtemek için (javada da böy
 
 //"fmt"
 //"gplesson/pointers"
-import "gplesson/structs"
+import (
 
-
+	//"gplesson/channels"
+	"gplesson/interfaces"
+	//"gplesson/goroutines"
+)
 
 func main() {
 
@@ -51,8 +54,15 @@ func main() {
 	//pointers.Pointer2(sayilar)
 	//fmt.Println("Maindeki sayi",sayilar[0])
 
-	structs.Demo2()
+	//ciftSayiCn := make(chan int)
+	//tekSayiCn := make(chan int)
+	//go channels.CiftSayilar(ciftSayiCn)
+	//go channels.TekSayilar(tekSayiCn)
 
+	//ciftSayiToplam, tekSayiToplam := <-ciftSayiCn, <-tekSayiCn
 
-	
+	//carpim := ciftSayiToplam * tekSayiToplam
+	//fmt.Println("Çarpım :", carpim)
+
+	interfaces.Demo2()
 }
